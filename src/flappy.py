@@ -135,7 +135,7 @@ class Flappy:
             await asyncio.sleep(0)
 
 
-def save_pool():
-    for xi in range(total_models):
-        current_pool[xi].save_weights("Current_Model_Pool/model_new" + str(xi) + ".weights.h5")
-    print("Saved current pool!")
+# def save_pool():
+#     for xi in range(total_models):
+#         current_pool[xi].save_weights("Current_Model_Pool/model_new" + str(xi) + ".weights.h5")
+#     print("Saved current pool!")
